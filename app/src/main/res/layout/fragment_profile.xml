@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_12sdp"
+            android:orientation="vertical"
+            tools:context=".MainActivity"
+            android:paddingTop="@dimen/_45sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="@dimen/_1sdp"
+                android:padding="@dimen/_2sdp"
+                app:civ_border_color="@color/black"
+                android:id="@+id/profile_user_img"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_130sdp"
+                android:layout_gravity="center"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.5"
+                tools:srcCompat="@drawable/ic_add" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextColor="@color/colorAccent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusBottomStart="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusTopEnd="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusTopStart="@dimen/input_text_corner_reduise"
+                android:hint="@string/profile_user_name_hint"
+                >
+
+                <EditText
+
+                    android:id="@+id/profile_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:fontFamily="@font/jazera"
+                    android:textSize="@dimen/_14ssp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextColor="@color/colorAccent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusBottomStart="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusTopEnd="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusTopStart="@dimen/input_text_corner_reduise"
+                android:hint="@string/profile_user_email_hint"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/profile_user_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:fontFamily="@font/jazera"
+                    android:textSize="@dimen/_14ssp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextColor="@color/colorAccent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusBottomStart="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusTopEnd="@dimen/input_text_corner_reduise"
+                app:boxCornerRadiusTopStart="@dimen/input_text_corner_reduise"
+                android:hint="@string/profile_user_phone_hint"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/profile_user_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:fontFamily="@font/jazera"
+                    android:textSize="@dimen/_14ssp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

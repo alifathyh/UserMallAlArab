@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مول العرب</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">مول العرب</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sign_out">تسجيل خروج</string>
+
+    <string name="rest_pass">تم إرسال بريد إلكتروني إلى بريدك ، قم بتنشيط حسابك</string>
+
+    <!-- Login and register -->
+
+    <string name="login_title">مول العرب</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="email_hint">البريد الالكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="skip">تخطي</string>
+    <string name="signup_hint">لا تمتلك حساب؟ انشاء حساب جديد</string>
+    <string name="forget_hint">نسيت كلمة المرور؟</string>
+    <string name="name_hint">الاسم</string>
+    <string name="phone_hint">رقم الهاتف</string>
+    <string name="register">تسجيل جديد</string>
+    <string name="login_hint">هل تمتلك حساب؟ تسجيل دخول</string>
+    <string name="forget_send_to_email">ارسال الى البريد الالكتروني</string>
+    <string name="forget_password">نسيت كلمة المرور</string>
+
+    <!-- details activity -->
+
+    <string name="details_et_item_name_hint">الاسم</string>
+    <string name="details_et_item_description_hint">الوصف</string>
+    <string name="details_et_item_price_hint">السعر</string>
+    <string name="item_btn_add_to_cart_text">اضافة الى السلة</string>
+
+    <!-- cart activity -->
+
+    <string name="Confirmation">تأكيد الطلب</string>
+    <string name="user_location_hint">العنوان</string>
+
+    <!-- privacy&policy activity -->
+
+    <string name="privacy_policy_text">نموذج عام لسياسة الخصوصية
+ستساعدك سياسة الخصوصية هذه ("السياسة") على فهم كيفية استخدام [الاسم] ("نحن" ، "نحن" ، "لدينا") وحماية البيانات التي تقدمها لنا عند زيارة واستخدام [موقع الويب] ("موقع الويب" ، "الخدمات").
+نحتفظ بالحق في تغيير هذه السياسة في أي وقت ، وسيتم تحديثك على الفور. إذا كنت تريد التأكد من أنك على اطلاع بآخر التغييرات ، فننصحك بزيارة هذه الصفحة بشكل متكرر.
+ما هي بيانات المستخدم التي نجمعها</string>
+
+    <!-- profile fragment -->
+
+    <string name="profile_user_name_hint">الاسم</string>
+    <string name="profile_user_email_hint">البريد الالكتروني</string>
+    <string name="profile_user_phone_hint">رقم الهاتف</string>
+
+    <!-- about fragment -->
+
+    <string name="about_us_text">مول العرب هو الأكبر في فلسطين بشكل عام وفي قطاع غزة خاصة
+        أول معلم كبداية التطور في الحبيب جنوب غزة</string>
+
+    <!-- title fragment -->
+
+    <string name="title_home">الرئيسة</string>
+    <string name="categories">التصنيفات</string>
+    <string name="cart">السلة</string>
+    <string name="list_order">قائمة الطلبات</string>
+    <string name="products">المنتجات</string>
+    <string name="more">المزيد</string>
+    <string name="profile">الملف الشخصي</string>
+
+    <!-- nav fragment -->
+
+    <string name="menu_categories">التصنيفات</string>
+    <string name="menu_cart">السلة</string>
+    <string name="menu_list_order">قائمة الطلبات</string>
+    <string name="menu_profile">الملف الشخصي</string>
+    <string name="menu_about_us">حول</string>
+    <string name="menu_privacy_policy">سياسة الخصوصية</string>
+    <string name="menu_home">الرئيسة</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="about_us">حول</string>
+
+    <string name="undo_the_request">التراجع عن الطلب</string>
+    <string name="cart_status">السلة فارغة</string>
+    <string name="location_error">ادخل العنوان</string>
+    <string name="order_successfully">تمت إضافة الطلب بنجاح</string>
+    <string name="category_failed">فشل في قراءة بيانات الفئات</string>
+    <string name="category_item_failed">فشل في الحصول على العناصر</string>
+    <string name="products_not_available">هذا المنتج غير متوفر</string>
+    <string name="request_canceled">تم إلغاء الطلب</string>
+    <string name="cannot_cancel_request">لا يمكنك إلغاء الطلب لأن طلبك قيد التقدم</string>
+    <string name="sign_out">تسجيل خروج</string>
+    <string name="qustion">هل أنت متأكد</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا </string>
+    <string name="cancel">اغلاق</string>
+    <string name="email_error">أدخل بريدك الإلكتروني!</string>
+    <string name="password_error">أدخل كلمة المرور!</string>
+    <string name="login_error">فشل عملية الدخول</string>
+    <string name="get_field_error">فشل في الحصول على بيانات المستخدم</string>
+    <string name="name_error">أدخل أسمك !</string>
+    <string name="phone_error">أدخل رقم هاتفك !</string>
+    <string name="img_error">الرجاء إضافة الصورة</string>
+    <string name="reg_error">فشل التسجيل</string>
+    <string name="upload_img_error">فشل تحميل صورة الملف الشخصي</string>
+    <string name="add_user">تمت إضافة المستخدم بنجاح</string>
+    <string name="add_user_faild">فشل إضافة المستخدم</string>
+    <string name="choose_quantity">اختر الكمية المطلوبة</string>
+    <string name="add_to_cart">تم الاضافة الى السلة</string>
+
+
+    <string name="categories_item">منتجات</string>
+    <string name="item_details">تفاصيل المنتج</string>
+    <string name="order_details">تفاصيل الطلب</string>
+
+</resources>

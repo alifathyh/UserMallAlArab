@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">ArabMall</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Arab Mall</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sign_out">Sign Out</string>
+
+
+    <string name="rest_pass">An email has been sent to your mail, activate your account</string>
+
+
+
+    <!-- Login and register -->
+
+    <string name="login_title">Arab Mall</string>
+    <string name="login">LOGIN</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="skip">Skip</string>
+    <string name="signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="forget_hint">Forget Password ?</string>
+    <string name="name_hint">Name</string>
+    <string name="phone_hint">Mobile Number</string>
+    <string name="register">REGISTER</string>
+    <string name="login_hint">Already have an account? Sign In</string>
+    <string name="forget_send_to_email">Send To Email</string>
+    <string name="forget_password">Forget Password</string>
+
+
+    <!-- details activity -->
+
+    <string name="details_et_item_name_hint">Name</string>
+    <string name="details_et_item_description_hint">Description</string>
+    <string name="details_et_item_price_hint">Price</string>
+    <string name="item_btn_add_to_cart_text">add to cart</string>
+
+
+    <!-- cart activity -->
+
+    <string name="Confirmation">Confirmation</string>
+    <string name="user_location_hint">Location</string>
+
+    <!-- privacy&policy activity -->
+
+    <string name="privacy_policy_text">Generic Privacy Policy Template
+This privacy policy ("policy") will help you understand how [name] ("us", "we", "our") uses and protects the data you provide to us when you visit and use [website] ("website", "service").
+We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
+What User Data We Collect</string>
+
+    <!-- profile fragment -->
+
+
+    <string name="profile_user_name_hint">Name</string>
+    <string name="profile_user_email_hint">Email</string>
+    <string name="profile_user_phone_hint">Phone</string>
+
+    <!-- about fragment -->
+
+    <string name="about_us_text">Mall of the Arabs is the largest in Palestine in general and in the Gaza Strip especially the first teacher as a beginning of development in the beloved south of Gaza</string>
+
+
+    <!-- title fragment -->
+
+    <string name="title_home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="cart">Cart</string>
+    <string name="list_order">List Order</string>
+    <string name="products">Products</string>
+    <string name="more">More</string>
+    <string name="profile">profile</string>
+
+
+    <!-- nav fragment -->
+    <string name="menu_categories">Categories</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_list_order">List Order</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="menu_home">Home</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="undo_the_request">Undo the request</string>
+    <string name="cart_status">Cart is empty</string>
+    <string name="location_error">Enter your location...</string>
+    <string name="order_successfully">Order added successfully</string>
+    <string name="category_failed">Failed to read categories data</string>
+    <string name="category_item_failed">Failed to get items</string>
+    <string name="products_not_available">This product is not available</string>
+    <string name="request_canceled">the request has been canceled</string>
+    <string name="cannot_cancel_request">You cannot cancel the order because your order is in progress</string>
+    <string name="sign_out">Sign out</string>
+    <string name="qustion">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">cancel</string>
+    <string name="email_error">Enter your email !</string>
+    <string name="password_error">Enter a password !</string>
+    <string name="login_error">Login Failed</string>
+    <string name="get_field_error">Failed to get user data</string>
+    <string name="name_error">Enter your name !</string>
+    <string name="phone_error">Enter your phone number !</string>
+    <string name="img_error">please add image</string>
+    <string name="reg_error">Failed Register</string>
+    <string name="upload_img_error">Failed to upload profile image</string>
+    <string name="add_user">User added successfully</string>
+    <string name="add_user_faild">User added failed</string>
+    <string name="choose_quantity">Choose the required quantity</string>
+    <string name="add_to_cart">add to cart</string>
+    <string name="categories_item">Products</string>
+    <string name="item_details">Product Details</string>
+    <string name="order_details">Order Details</string>
+
+</resources>

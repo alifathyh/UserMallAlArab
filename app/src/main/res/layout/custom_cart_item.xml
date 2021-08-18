@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    android:outlineAmbientShadowColor="@color/colorPrimary"
+    android:outlineSpotShadowColor="@color/colorPrimary"
+    android:elevation="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_20sdp"
+    app:cardElevation="@dimen/_3sdp"
+    app:cardMaxElevation="@dimen/_3sdp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_5sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/black"
+            android:id="@+id/custom_cart_item_iv"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_add" />
+
+        <TextView
+            android:id="@+id/custom_cart_item_tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jazera"
+            android:padding="@dimen/_8sdp"
+            android:text="...."
+            android:textColor="@color/teal_700"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/custom_cart_item_tv_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawablePadding="@dimen/_8sdp"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="...."
+            android:textColor="@color/purple_700"
+            android:textSize="@dimen/_9ssp" />
+
+        <TextView
+            android:id="@+id/custom_cart_item_tv_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawablePadding="@dimen/_8sdp"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="...."
+            android:textColor="@color/purple_700"
+            android:textSize="@dimen/_9ssp" />
+
+        <TextView
+            android:id="@+id/custom_cart_item_tv_subTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0.5"
+            android:drawablePadding="@dimen/_8sdp"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="...."
+            android:textColor="@color/purple_700"
+            android:textSize="@dimen/_9ssp" />
+
+        <ImageView
+            android:id="@+id/delete_iv"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            app:srcCompat="@drawable/ic_delete" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

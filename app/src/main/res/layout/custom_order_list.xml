@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/_5sdp"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    android:outlineAmbientShadowColor="@color/colorPrimary"
+    android:outlineSpotShadowColor="@color/colorPrimary"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="@dimen/_5sdp"
+    app:cardMaxElevation="@dimen/_5sdp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:id="@+id/stetus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="@dimen/_16sdp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/undo_the_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:fontFamily="@font/jazera"
+            android:gravity="center"
+            android:text="@string/undo_the_request"
+            android:textSize="@dimen/_16sdp"
+            app:cornerRadius="@dimen/_15sdp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
