@@ -39,7 +39,7 @@
                 <ImageView
                     android:id="@+id/item_img"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_300sdp"
+                    android:layout_height="@dimen/_280sdp"
                     android:fitsSystemWindows="true"
                     android:paddingTop="@dimen/_7sdp"
                     android:paddingBottom="@dimen/_13sdp"
@@ -59,7 +59,7 @@
                     android:hint="@string/details_et_item_name_hint"
                     android:padding="@dimen/_4sdp"
                     android:textColor="#000000"
-                    android:textSize="@dimen/_18ssp" />
+                    android:textSize="@dimen/_14ssp" />
 
                 <TextView
                     android:id="@+id/item_price"
@@ -72,7 +72,7 @@
                     android:inputType="numberDecimal"
                     android:padding="@dimen/_4sdp"
                     android:textColor="#F8BA00"
-                    android:textSize="@dimen/_18ssp"
+                    android:textSize="@dimen/_14ssp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -85,7 +85,7 @@
                     android:padding="@dimen/_7sdp"
                     android:scrollbars="vertical"
                     android:textColor="#000000"
-                    android:textSize="@dimen/_18ssp" />
+                    android:textSize="@dimen/_14ssp" />
             </LinearLayout>
 
 
